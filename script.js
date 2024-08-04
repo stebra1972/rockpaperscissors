@@ -1,7 +1,11 @@
-const message = 'Hello world' // Try edit me
 
-// Update header text
-document.querySelector('#header').innerHTML = message
+function getRandomElement(array) {
+    const randomIndex = Math.floor(Math.random() * array.length);
+    const randomElement = array[randomIndex];
+    return randomElement;
+}
 
-// Log to console
-console.log(message)
+const array = [1, 2, 3, 4, 5];
+const randomElement = getRandomElement(array);
+console.log("Random element selected:",randomElement);
+console.log("Original array:",array);
