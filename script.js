@@ -7,5 +7,5 @@ function getRandomElement(array) {
 
 const array = [1, 2, 3, 4, 5];
 const randomElement = getRandomElement(array);
-console.log("Random element selected:",randomElement);
-console.log("Original array:",array);
+console.log("Random element selected:", randomElement);
+console.log("Original array:", array); 
