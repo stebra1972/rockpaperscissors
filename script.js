@@ -60,11 +60,12 @@ document.write ("PC selected:....\n", randomElement);
             document.write("<br>")
             document.write (".....dear PC, dear human, no winner!!!\n")}
                             
-      
+        }  
 
 // codice aggiuntivo
 
-}
+
+
 
 setTimeout(()=>{document.write("<br>")
     document.write("Computer Score:", ComputerScore);},10000);
@@ -74,9 +75,11 @@ setTimeout(()=>{document.write("<br>")
 setTimeout(()=>{
     
     if (ComputerScore>HumanScore) {document.write("<br>")
-        document.write("Computer is WINNER !")}},5000);
+        document.write("Computer is the WINNER !")}},5000);
     
 setTimeout(()=>{
     
     if(HumanScore>ComputerScore) {
         document.write ("You are the WINNER !")}},5000)
+
+  
