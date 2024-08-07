@@ -5,7 +5,7 @@ var ComputerScore=0
 var HumanScore=0
 
 
-const numero=3
+const numero=5
 let contatore=0
 for (contatore=1;contatore<=numero;contatore=contatore+1){
 
