@@ -98,7 +98,6 @@ const game = () => {
             option.style.display = 'none';
         })
  
- 
         chooseMove.innerText = 'Partita conclusa!!'
         movesLeft.style.display = 'none';
  
