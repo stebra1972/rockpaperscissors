@@ -21,7 +21,7 @@ const game = () => {
  
                 const movesLeft = document.querySelector('.movesleft');
                 moves++;
-                movesLeft.innerText = `Moves: ${moves}`;
+                movesLeft.innerText = `Scelta nr.: ${moves}`;
  
  
                 const choiceNumber = Math.floor(Math.random() * 3);
@@ -131,5 +131,3 @@ const game = () => {
  
 // Calling the game function
 game();
-
-
