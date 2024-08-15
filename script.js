@@ -6,7 +6,6 @@ const game = () => {
     let computerScore = 0;
     let moves = 0;
  
- 
 
     // Function to 
     const playGame = () => {
